@@ -341,3 +341,155 @@ a:link{
     color: var(--firstcolor);
     font-family: var(--body-font);
 }
+@media (max-width: 900px) {
+  #nav {
+    padding: 0 16px;
+  }
+  .nav-list {
+    gap: 24px;
+    font-size: 0.95rem;
+  }
+  #home-content {
+    left: 8vw;
+    font-size: 2.2rem;
+  }
+  #about-name, .about-para {
+    left: 40%;
+    width: 60vw;
+  }
+  .about-title, .skills-title, #projects-title {
+    left: 40%;
+    font-size: 1.3rem;
+  }
+  #skill-set {
+    grid-template-columns: repeat(2, 150px);
+    gap: 18px;
+    top: 120px;
+  }
+  #projects {
+    height: auto;
+  }
+  #project-01 {
+    left: 10px;
+    width: 90vw;
+    min-width: 220px;
+  }
+  .project1-img {
+    width: 90vw;
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  #nav {
+    flex-direction: column;
+    height: auto;
+    padding: 8px 4vw;
+    font-size: 0.9rem;
+  }
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    height: auto;
+    font-size: 0.95rem;
+  }
+  #home {
+    height: 400px;
+  }
+  #home-content {
+    position: static;
+    font-size: 1.5rem;
+    margin: 32px 0 0 0;
+    left: 0;
+    top: 0;
+    word-spacing: 6px;
+    text-align: left;
+    padding: 0 4vw;
+  }
+  #contact-btn {
+    width: 90vw;
+    min-width: 120px;
+    font-size: 1rem;
+    left: 0;
+    top: 10px;
+    margin: 12px 0 0 4vw;
+  }
+  #about {
+    height: auto;
+    padding-bottom: 32px;
+  }
+  .about-title, .skills-title, #projects-title {
+    left: 0;
+    font-size: 1.1rem;
+    top: 40px;
+    margin-left: 4vw;
+  }
+  #about-name {
+    position: static;
+    font-size: 1.1rem;
+    margin: 24px 0 0 4vw;
+    left: 0;
+  }
+  .about-para {
+    position: static;
+    width: 90vw;
+    font-size: 1rem;
+    margin: 16px 0 0 4vw;
+    left: 0;
+    top: 0;
+  }
+  #skills {
+    height: auto;
+    padding-bottom: 32px;
+  }
+  #skill-set {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    top: 60px;
+    width: 100vw;
+    padding: 0 4vw;
+  }
+  .skill, .skill img {
+    width: 90px;
+    height: 90px;
+  }
+  #projects {
+    height: auto;
+    padding-bottom: 32px;
+  }
+  #project-01 {
+    width: 90vw;
+    min-width: 160px;
+    left: 0;
+    top: 40px;
+    margin: 0 4vw 24px 4vw;
+    font-size: 0.95rem;
+  }
+  .project1-img {
+    width: 90vw;
+    max-width: 200px;
+    height: auto;
+    left: 0;
+    top: 0;
+  }
+  .project1, .project-stack, .project-link {
+    left: 0;
+    top: 0;
+    margin-left: 4vw;
+  }
+  #footer {
+    height: auto;
+    padding: 24px 0;
+  }
+  .footer-name, .footer-content {
+    font-size: 0.95rem;
+    top: 0;
+    margin: 0 4vw;
+  }
+  .footer-icons {
+    top: 24px;
+    gap: 16px;
+  }
+}
